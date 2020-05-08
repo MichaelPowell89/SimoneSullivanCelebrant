@@ -48,7 +48,7 @@ a:hover {
 /* Navigation Bar */
 
 #navbar {
-  width: 90%;
+  width: 100%;
   position: fixed;
   transition: top 0.5s;
   line-height: 2.75rem;
