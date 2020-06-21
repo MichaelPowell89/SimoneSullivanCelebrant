@@ -43,7 +43,7 @@ $(document).ready(function () {
       $('.container-fluid').css('background-image', 'linear-gradient(to bottom, rgba(197,160,159,1), rgba(197,160,159,0.95))');
       $('body').css('overflow', 'hidden');
       $('.animated-icon1 span').css('background', '#000');
-      $('.container-fluid').css('heigh', '100vh');
+      $('.container-fluid').css('height', '100vh');
     }
 
     if ($("#mobile-nav").hasClass('open')){
