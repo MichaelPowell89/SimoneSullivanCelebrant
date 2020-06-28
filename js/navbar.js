@@ -2,7 +2,7 @@ var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+  if (prevScrollpos > currentScrollPos || currentScrollPos < 200) {
     $("#navbar").css('top', 0);
   } else {
     $("#navbar").css('top', "-200px");
